@@ -12,7 +12,6 @@ reports:
   unittests:
     files:
       - junit.xml
-      
     file-format: JUNITXML
   codecoverage:
     files:
