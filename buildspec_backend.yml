@@ -22,3 +22,5 @@ phases:
   post_build:
     commands:
       - aws cloudformation describe-stacks --stack-name BaseInfraStack-$DEPLOY_ENV
+
+      
